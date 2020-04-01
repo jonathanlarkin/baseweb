@@ -12,7 +12,7 @@ export const fontTokens: FontTokensT = {
     'system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif',
 };
 
-// color constants
+// font constants
 export default (themePrimitives: FontTokensT = fontTokens): TypographyT => {
   const font100 = {
     fontFamily: themePrimitives.primaryFontFamily,
